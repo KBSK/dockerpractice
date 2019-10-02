@@ -1,7 +1,6 @@
 FROM redhat:latest
 
-RUN yum update -y /
-    yum install httpd
+RUN yum install httpd
 
 CMD ["bin/bash"]
 
